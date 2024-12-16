@@ -20,14 +20,16 @@ def game_prime():
         num_question = randint(2, 100)
         print(f"Question: {num_question}")
         answer = input('Your answer: ')
-        if IsPrime(num_question) == True and answer.lower() == 'yes':
+        answer_true = "yes" if IsPrime(num_question) else "no"
+        if IsPrime(num_question) and answer.lower() == 'yes':
             print('Correct!')
             i += 1
-        elif IsPrime(num_question) == False and answer.lower() == 'no':
+        elif not IsPrime(num_question) and answer.lower() == 'no':
             print('Correct!')
             i += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{"yes" if IsPrime(num_question) == True else "no"}'.")
+            print(f"'{answer}' is wrong answer ;(. \
+                  Correct answer was '{answer_true}'.")
             print(f"Let's try again, {name}!")
             return
 
