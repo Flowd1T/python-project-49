@@ -8,7 +8,7 @@ def game_gcd():
     name = input("May I have your name? ")
     print(f'Hello, {name}!')
 
-    print('Find the freatest common divisor of given numbers.')
+    print('Find the greatest common divisor of given numbers.')
     while i < 3:
 
         f_num = randint(1, 100)
