@@ -33,6 +33,7 @@ def game_progression():
             print(f"'{player_answer}' is wrong answer ;(. \
                   Correct answer was '{coll_point}'.")
             print(f"Let's try again, {name}!")
+            return
 
     print(f'Congratulations, {name}!')
 

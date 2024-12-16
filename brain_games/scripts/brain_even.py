@@ -20,6 +20,7 @@ def game_even():
             i += 1
         else:
             print(f"Let's try again, {name}!")
+            return
     print(f'Congratulations, {name}!')
 
 

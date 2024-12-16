@@ -30,6 +30,7 @@ def game_prime():
             print(f"'{answer}' is wrong answer ;(. Correct answer \
                   was '{"yes" if IsPrime(num_question) else "no"}'.")
             print(f"Let's try again, {name}!")
+            return
 
     print(f'Congratulations, {name}!')
 

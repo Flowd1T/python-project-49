@@ -26,6 +26,7 @@ def game_gcd():
             print(f"'{player_answer}' is wrong answer ;(. \
                   Correct answer was '{true_answer}'.")
             print(f"Let's try again, {name}!")
+            return
 
     print(f'Congratulations, {name}!')
 
