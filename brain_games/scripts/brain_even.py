@@ -19,7 +19,7 @@ def game_even():
             print('Correct!')
             i += 1
         else:
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
     print(f'Congratulations, {name}!')
 
 
