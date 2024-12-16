@@ -4,3 +4,9 @@
 
 Brain even:
 https://asciinema.org/a/dOLADFpxf7jtUWtFwFnJ5dHqe
+Brain calc:
+https://asciinema.org/a/n4hDXgjgUdpftDJmW5jOdc6NA
+Brain gcd:
+https://asciinema.org/a/EDG7OrnuK2O3bmtapfxQCTNAp
+Brain progression:
+https://asciinema.org/a/J7fjtbhrcsDTHZNbJYmGqVa2G
