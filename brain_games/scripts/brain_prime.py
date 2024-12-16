@@ -20,10 +20,10 @@ def game_prime():
         num_question = randint(2, 100)
         print(f"Question: {num_question}")
         answer = input('Your answer: ')
-        if IsPrime(num_question) and answer.lower() == 'yes':
+        if IsPrime(num_question) == True and answer.lower() == 'yes':
             print('Correct!')
             i += 1
-        elif IsPrime(num_question) and answer.lower() == 'no':
+        elif IsPrime(num_question) == False and answer.lower() == 'no':
             print('Correct!')
             i += 1
         else:
