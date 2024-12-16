@@ -33,6 +33,8 @@ def game_calc():
         else:
             print(f"'{answer_int}' is wrong answer ;(. Correct answer was '{answer_true}'.")
             print(f"Let's try again, {name}!")
+            
+    print(f'Congratulations, {name}!')
 
 def main():
     game_calc()
