@@ -1,5 +1,6 @@
 from random import randint
 
+
 def game_even():
     i = 0
     print("Welcome to the Brain Games!")
@@ -21,8 +22,10 @@ def game_even():
             print(f"Let's try again, {name}")
     print(f'Congratulations, {name}!')
 
+
 def main():
     game_even()    
+
 
 if __name__ == '__main__':
     main()

@@ -1,5 +1,6 @@
-from random import randint
 import math
+from random import randint
+
 
 def game_gcd():
     i = 0
@@ -22,13 +23,16 @@ def game_gcd():
             print('Correct!')
             i += 1
         else:
-            print(f"'{player_answer}' is wrong answer ;(. Correct answer was '{true_answer}'.")
+            print(f"'{player_answer}' is wrong answer ;(. \
+                  Correct answer was '{true_answer}'.")
             print(f"Let's try again, {name}!")
 
     print(f'Congratulations, {name}!')
 
+
 def main():
     game_gcd()
+
 
 if __name__ == '__main__':
     main()

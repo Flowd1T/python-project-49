@@ -1,5 +1,6 @@
 import random
 
+
 def game_progression():
     i = 0
     print("Welcome to the Brain Games!")
@@ -25,18 +26,20 @@ def game_progression():
         print(f"Question: {res}")
         player_answer = input('Your answer: ')
 
-
         if player_answer == coll_point:
             print('Correct!')
             i += 1
         else:
-            print(f"'{player_answer}' is wrong answer ;(. Correct answer was '{coll_point}'.")
+            print(f"'{player_answer}' is wrong answer ;(. \
+                  Correct answer was '{coll_point}'.")
             print(f"Let's try again, {name}!")
 
     print(f'Congratulations, {name}!')
 
+
 def main():
     game_progression()
+
 
 if __name__ == '__main__':
     main()

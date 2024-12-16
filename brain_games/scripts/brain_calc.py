@@ -1,5 +1,6 @@
 import random
 
+
 def game_calc():
     i = 0
 
@@ -31,13 +32,16 @@ def game_calc():
             print('Correct!')
             i += 1
         else:
-            print(f"'{answer_int}' is wrong answer ;(. Correct answer was '{answer_true}'.")
+            print(f"'{answer_int}' is wrong answer ;(. \
+                  Correct answer was '{answer_true}'.")
             print(f"Let's try again, {name}!")
             
     print(f'Congratulations, {name}!')
 
+
 def main():
     game_calc()
+
 
 if __name__ == '__main__':
     main()
